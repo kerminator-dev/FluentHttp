@@ -1,7 +1,7 @@
 ﻿using Newtonsoft.Json;
 using System.Net;
 
-namespace FluentHTTPToolkit.Extensions.Extensions
+namespace FluentHTTPToolkit.Extensions
 {
     public static class HttpWebResponseExtensions
     {

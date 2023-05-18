@@ -1,7 +1,6 @@
 using FluentHTTPToolkit.Core.Builders.Implementation;
 using FluentHTTPToolkit.Core.Handlers.Implementation;
-using FluentHTTPToolkit.Core.Handlers.Interfaces;
-using FluentHTTPToolkit.Extensions.Extensions;
+using FluentHTTPToolkit.Extensions;
 using Newtonsoft.Json;
 using NUnit.Framework;
 using System;
@@ -43,7 +42,8 @@ namespace FluentHTTPToolkit.Tests
                                         .HandleSuccess(handler: async (response) =>
                                         {
                                             return await response.TryDeserializeAsync<List<Holiday>>();
-                                        }).HandleResponse(response);
+                                        })
+                                        .HandleResponse(response);
 
                 if (result == null)
                 {

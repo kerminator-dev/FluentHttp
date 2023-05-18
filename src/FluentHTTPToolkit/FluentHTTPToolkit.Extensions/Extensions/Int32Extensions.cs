@@ -1,4 +1,4 @@
-﻿namespace FluentHTTPToolkit.Extensions.Extensions
+﻿namespace FluentHTTPToolkit.Extensions
 {
     public static class Int32Extensions
     {

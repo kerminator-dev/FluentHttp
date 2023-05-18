@@ -1,6 +1,6 @@
 ﻿using FluentHTTPToolkit.Core.Exceptions;
 using FluentHTTPToolkit.Core.Handlers.Interfaces;
-using FluentHTTPToolkit.Extensions.Extensions;
+using FluentHTTPToolkit.Extensions;
 using System.Net;
 
 namespace FluentHTTPToolkit.Core.Handlers.Implementation
