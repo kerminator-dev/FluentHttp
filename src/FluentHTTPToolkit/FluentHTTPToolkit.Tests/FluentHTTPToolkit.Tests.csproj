@@ -14,4 +14,9 @@
     <PackageReference Include="coverlet.collector" Version="3.1.0" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\FluentHTTPToolkit.Core\FluentHTTPToolkit.Core.csproj" />
+    <ProjectReference Include="..\FluentHTTPToolkit.Extensions\FluentHTTPToolkit.Extensions.csproj" />
+  </ItemGroup>
+
 </Project>

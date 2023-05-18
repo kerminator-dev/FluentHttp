@@ -1,10 +1,11 @@
 ﻿using FluentHTTPToolkit.Core.Exceptions;
+using FluentHTTPToolkit.Core.Handlers.Interfaces;
 using FluentHTTPToolkit.Extensions.Extensions;
 using System.Net;
 
 namespace FluentHTTPToolkit.Core.Handlers.Implementation
 {
-    public class HttpWebResponseHandler<T>
+    public class HttpWebResponseHandler<T> : IHttpResponseHandler<T>
     {
         // Обработчики
         protected readonly IDictionary<HttpStatusCode, Func<HttpWebResponse, Task<T>>> _responseHandlers;
@@ -24,7 +25,7 @@ namespace FluentHTTPToolkit.Core.Handlers.Implementation
         /// <param name="statusCode"></param>
         /// <param name="responseHandler">Обработчик ответа от сервера, если код ответа равен <paramref name="statusCode"/></param>
         /// <returns></returns>
-        public HttpWebResponseHandler<T> Handle(HttpStatusCode statusCode, Func<HttpWebResponse, Task<T>> responseHandler)
+        public HttpWebResponseHandler<T> Handle(HttpStatusCode statusCode, Func<HttpWebResponse?, Task<T>> responseHandler)
         {
             _responseHandlers[statusCode] = responseHandler;
 
@@ -87,6 +88,9 @@ namespace FluentHTTPToolkit.Core.Handlers.Implementation
         /// <exception cref="UnexpectedStatusCodeException">Нет подходящего обработчика для полученного HTTP-кода</exception>
         public Task<T>? HandleResponse(HttpWebResponse response)
         {
+            if (response == null)
+                throw new ArgumentNullException(nameof(response));
+
             var statusCode = (int)response.StatusCode;
 
             if (_responseHandlers.TryGetValue(response.StatusCode, out var handler))
