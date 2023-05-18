@@ -1,0 +1,15 @@
+C:\Users\525.khokhlovns\source\repos\HttpToolkit\FluentHttpToolkit\src\FluentHTTPToolkit\FluentHTTPToolkit.Core\bin\Debug\net6.0\FluentHTTPToolkit.Core.deps.json
+C:\Users\525.khokhlovns\source\repos\HttpToolkit\FluentHttpToolkit\src\FluentHTTPToolkit\FluentHTTPToolkit.Core\bin\Debug\net6.0\FluentHTTPToolkit.Core.dll
+C:\Users\525.khokhlovns\source\repos\HttpToolkit\FluentHttpToolkit\src\FluentHTTPToolkit\FluentHTTPToolkit.Core\bin\Debug\net6.0\ref\FluentHTTPToolkit.Core.dll
+C:\Users\525.khokhlovns\source\repos\HttpToolkit\FluentHttpToolkit\src\FluentHTTPToolkit\FluentHTTPToolkit.Core\bin\Debug\net6.0\FluentHTTPToolkit.Core.pdb
+C:\Users\525.khokhlovns\source\repos\HttpToolkit\FluentHttpToolkit\src\FluentHTTPToolkit\FluentHTTPToolkit.Core\bin\Debug\net6.0\FluentHTTPToolkit.Extensions.dll
+C:\Users\525.khokhlovns\source\repos\HttpToolkit\FluentHttpToolkit\src\FluentHTTPToolkit\FluentHTTPToolkit.Core\bin\Debug\net6.0\FluentHTTPToolkit.Extensions.pdb
+C:\Users\525.khokhlovns\source\repos\HttpToolkit\FluentHttpToolkit\src\FluentHTTPToolkit\FluentHTTPToolkit.Core\obj\Debug\net6.0\FluentHTTPToolkit.Core.csproj.AssemblyReference.cache
+C:\Users\525.khokhlovns\source\repos\HttpToolkit\FluentHttpToolkit\src\FluentHTTPToolkit\FluentHTTPToolkit.Core\obj\Debug\net6.0\FluentHTTPToolkit.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\525.khokhlovns\source\repos\HttpToolkit\FluentHttpToolkit\src\FluentHTTPToolkit\FluentHTTPToolkit.Core\obj\Debug\net6.0\FluentHTTPToolkit.Core.AssemblyInfoInputs.cache
+C:\Users\525.khokhlovns\source\repos\HttpToolkit\FluentHttpToolkit\src\FluentHTTPToolkit\FluentHTTPToolkit.Core\obj\Debug\net6.0\FluentHTTPToolkit.Core.AssemblyInfo.cs
+C:\Users\525.khokhlovns\source\repos\HttpToolkit\FluentHttpToolkit\src\FluentHTTPToolkit\FluentHTTPToolkit.Core\obj\Debug\net6.0\FluentHTTPToolkit.Core.csproj.CoreCompileInputs.cache
+C:\Users\525.khokhlovns\source\repos\HttpToolkit\FluentHttpToolkit\src\FluentHTTPToolkit\FluentHTTPToolkit.Core\obj\Debug\net6.0\FluentHTTPToolkit.Core.csproj.CopyComplete
+C:\Users\525.khokhlovns\source\repos\HttpToolkit\FluentHttpToolkit\src\FluentHTTPToolkit\FluentHTTPToolkit.Core\obj\Debug\net6.0\FluentHTTPToolkit.Core.dll
+C:\Users\525.khokhlovns\source\repos\HttpToolkit\FluentHttpToolkit\src\FluentHTTPToolkit\FluentHTTPToolkit.Core\obj\Debug\net6.0\ref\FluentHTTPToolkit.Core.dll
+C:\Users\525.khokhlovns\source\repos\HttpToolkit\FluentHttpToolkit\src\FluentHTTPToolkit\FluentHTTPToolkit.Core\obj\Debug\net6.0\FluentHTTPToolkit.Core.pdb

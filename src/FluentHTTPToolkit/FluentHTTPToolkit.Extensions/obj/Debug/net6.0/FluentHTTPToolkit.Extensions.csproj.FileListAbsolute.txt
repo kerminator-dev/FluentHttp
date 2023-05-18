@@ -1,0 +1,12 @@
+C:\Users\525.khokhlovns\source\repos\HttpToolkit\FluentHttpToolkit\src\FluentHTTPToolkit\FluentHTTPToolkit.Extensions\bin\Debug\net6.0\FluentHTTPToolkit.Extensions.deps.json
+C:\Users\525.khokhlovns\source\repos\HttpToolkit\FluentHttpToolkit\src\FluentHTTPToolkit\FluentHTTPToolkit.Extensions\bin\Debug\net6.0\FluentHTTPToolkit.Extensions.dll
+C:\Users\525.khokhlovns\source\repos\HttpToolkit\FluentHttpToolkit\src\FluentHTTPToolkit\FluentHTTPToolkit.Extensions\bin\Debug\net6.0\ref\FluentHTTPToolkit.Extensions.dll
+C:\Users\525.khokhlovns\source\repos\HttpToolkit\FluentHttpToolkit\src\FluentHTTPToolkit\FluentHTTPToolkit.Extensions\bin\Debug\net6.0\FluentHTTPToolkit.Extensions.pdb
+C:\Users\525.khokhlovns\source\repos\HttpToolkit\FluentHttpToolkit\src\FluentHTTPToolkit\FluentHTTPToolkit.Extensions\obj\Debug\net6.0\FluentHTTPToolkit.Extensions.csproj.AssemblyReference.cache
+C:\Users\525.khokhlovns\source\repos\HttpToolkit\FluentHttpToolkit\src\FluentHTTPToolkit\FluentHTTPToolkit.Extensions\obj\Debug\net6.0\FluentHTTPToolkit.Extensions.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\525.khokhlovns\source\repos\HttpToolkit\FluentHttpToolkit\src\FluentHTTPToolkit\FluentHTTPToolkit.Extensions\obj\Debug\net6.0\FluentHTTPToolkit.Extensions.AssemblyInfoInputs.cache
+C:\Users\525.khokhlovns\source\repos\HttpToolkit\FluentHttpToolkit\src\FluentHTTPToolkit\FluentHTTPToolkit.Extensions\obj\Debug\net6.0\FluentHTTPToolkit.Extensions.AssemblyInfo.cs
+C:\Users\525.khokhlovns\source\repos\HttpToolkit\FluentHttpToolkit\src\FluentHTTPToolkit\FluentHTTPToolkit.Extensions\obj\Debug\net6.0\FluentHTTPToolkit.Extensions.csproj.CoreCompileInputs.cache
+C:\Users\525.khokhlovns\source\repos\HttpToolkit\FluentHttpToolkit\src\FluentHTTPToolkit\FluentHTTPToolkit.Extensions\obj\Debug\net6.0\FluentHTTPToolkit.Extensions.dll
+C:\Users\525.khokhlovns\source\repos\HttpToolkit\FluentHttpToolkit\src\FluentHTTPToolkit\FluentHTTPToolkit.Extensions\obj\Debug\net6.0\ref\FluentHTTPToolkit.Extensions.dll
+C:\Users\525.khokhlovns\source\repos\HttpToolkit\FluentHttpToolkit\src\FluentHTTPToolkit\FluentHTTPToolkit.Extensions\obj\Debug\net6.0\FluentHTTPToolkit.Extensions.pdb

@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "SH8E34wrwZlWMCDehugkqWin1/wq2eCBF4qSUhBFCYMGPMPsEpRGztnWVsuWXxKrLLMTrQAt3IXXp9U5IC77zQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\525.khokhlovns\\source\\repos\\HttpToolkit\\FluentHttpToolkit\\src\\FluentHTTPToolkit\\FluentHTTPToolkit.Core\\FluentHTTPToolkit.Core.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\525.khokhlovns\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}
