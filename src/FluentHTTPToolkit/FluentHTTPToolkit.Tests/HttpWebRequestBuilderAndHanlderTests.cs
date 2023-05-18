@@ -33,28 +33,27 @@ namespace FluentHTTPToolkit.Tests
                                     .Build();
 
             // Выполнение запроса
-            var response = await request.GetWebResponseAsync() as HttpWebResponse;
-            if (response == null)
-                Assert.Fail();
-
-            #pragma warning disable CS8602 // Разыменование вероятной пустой ссылки.
-
-            List<Holiday> result = await new HttpWebResponseHandler<List<Holiday>>()
-                                    .HandleSuccess(handler: async (response) =>
-                                    {
-                                        return await response.TryDeserializeAsync<List<Holiday>>();
-                                    }).HandleResponse(response);
-
-            #pragma warning restore CS8602 // Разыменование вероятной пустой ссылки.
-
-            if (result == null)
+            using (var response = await request.GetWebResponseAsync() as HttpWebResponse)
             {
-                Assert.Fail();
-            }
-            else
-            {
-                Console.WriteLine($"Всего праздников на {year} год: {result.Count}");
-                Assert.Pass();
+                if (response == null)
+                    Assert.Fail();
+
+
+                List<Holiday> result = await new HttpWebResponseHandler<List<Holiday>>()
+                                        .HandleSuccess(handler: async (response) =>
+                                        {
+                                            return await response.TryDeserializeAsync<List<Holiday>>();
+                                        }).HandleResponse(response);
+
+                if (result == null)
+                {
+                    Assert.Fail();
+                }
+                else
+                {
+                    Console.WriteLine($"Всего праздников на {year} год: {result.Count}");
+                    Assert.Pass();
+                }
             }
         }
     }
