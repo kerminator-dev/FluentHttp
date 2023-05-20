@@ -51,26 +51,14 @@ using (var response = await request.GetWebResponseAsync() as HttpWebResponse)
 {
     // Обработка ответа от сервера
     var result = await new HttpWebResponseHandler<ResponseModelType>()
-                           .HandleSuccess(handler: async (response) =>
-                           {
-                               return await response.TryDeserializeAsync<ResponseModelType>();
-                           })
-                           .HandleClientError(handler: (response) =>
-                           {
-                               throw new Exception("Возникла ошибка 4XX");
-                           })
-                           .HandleInternalServerError(handler: (response) =>
-                           {
-                               throw new Exception("Возникла ошибка 5XX");
-                           })
-                           .Handle(HttpStatusCode.401, handler: (response) =>
-                           {
-                               throw new Exception("Не авторизован!");
-                           }
-                           .HandleOthers(handler: (response) =>
-                           {
-                               throw new Exception();
-                           })
-                           .HandleResponse(response);
+       .HandleSuccess(handler: async (response) =>
+       {
+           return await response.TryDeserializeAsync<ResponseModelType>();
+       })
+       .HandleOthers(handler: (response) =>
+       {
+           throw new Exception();
+       })
+       .HandleResponse(response);
 }
 ```
