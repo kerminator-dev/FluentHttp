@@ -1,4 +1,4 @@
-# Fluent Http Toolkit - библиотека-обёртка над стандартными классами .NET с Fluent-интерфейсом для построения HTTP-запросов и обработки HTTP-ответов в .NET
+# Fluent Http - библиотека-обёртка над стандартными классами .NET с Fluent-интерфейсом для построения HTTP-запросов и обработки HTTP-ответов в .NET
 
 **HttpWebRequestBuilder** - построитель запросов. Позволяет настроить параметры запроса, 
 такие как HTTP-метод, JWT-Token, заголовки и Json-тело запроса. Реализует паттерн Builder.
@@ -29,7 +29,7 @@ using (HttpWebResponse response = (HttpWebResponse)request.GetResponse())
 }
 ```
 
-### Пример формирования HTTP-запроса и его обработка при помощи Fluent Http Toolkit
+### Пример формирования HTTP-запроса и его обработка при помощи Fluent Http
 ```csharp
 using FluentHTTPToolkit.Core.Builders.Implementation;
 using FluentHTTPToolkit.Core.Handlers.Implementation;
